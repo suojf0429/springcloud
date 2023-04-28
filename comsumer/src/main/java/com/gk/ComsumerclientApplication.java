@@ -9,7 +9,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableFeignClients
-
+//
 public class ComsumerclientApplication {
     public static void main(String[] args) {
         SpringApplication.run(ComsumerclientApplication.class, args);
