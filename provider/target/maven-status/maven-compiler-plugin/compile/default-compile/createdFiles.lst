@@ -1,0 +1,7 @@
+com\gk\dao\LoginDao.class
+com\gk\entity\CommonResult.class
+com\gk\entity\Admin.class
+com\gk\controller\LoginController.class
+com\gk\ProviderloginApplication.class
+com\gk\service\LoginService.class
+com\gk\service\impl\LoginServiceImpl.class

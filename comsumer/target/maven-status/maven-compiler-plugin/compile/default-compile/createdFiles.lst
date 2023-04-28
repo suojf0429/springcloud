@@ -1,0 +1,5 @@
+com\gk\ComsumerclientApplication.class
+com\gk\entity\CommonResult.class
+com\gk\service\ProviderClient.class
+com\gk\controller\LoginController.class
+com\gk\service\fallback\ProviderServiceFallback.class

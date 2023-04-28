@@ -1,0 +1,28 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    gateway:
+      httpclient:
+        connect-timeout: 1000
+        response-timeout: 5s
+      routes:
+        - id: login-provider
+          uri: lb://provider  #不能带数字
+          predicates:
+            - Path=/user/**
+
+        - id: login-consumer
+          uri: lb://comsumer  #不能带数字
+          predicates:
+            - Path=/con/**
+
+  application:
+    name: gateway
+server:
+  port: 9527
+  tomcat:
+    uri-encoding: utf-8
+
+
